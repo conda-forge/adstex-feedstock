@@ -1,5 +1,5 @@
 {% set name = "adstex" %}
-{% set version = "0.3.12" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/adstex-{{ version }}.tar.gz
-  sha256: b3af33f6a081b92a2e7023bc00badbfa1e785e7bdba78c9a82d1213bd19eb7a5
+  sha256: d335908a2fd64dc7b24f3c740277004cd42cffe388d322796a0577bf97dcbeea
 
 build:
   number: 0
@@ -41,7 +41,6 @@ about:
   home: https://github.com/yymao/adstex
   summary: Find all citation keys in your LaTeX documents and search NASA ADS to generate corresponding bibtex entries.
   license: MIT
-  # License file manually packaged for version <= 0.3.8. Future releases would include LICENSE in source tarball.
   license_file: LICENSE
   doc_url: https://github.com/yymao/adstex/blob/master/README.md
   dev_url: https://github.com/yymao/adstex
