@@ -1,11 +1,11 @@
-About adstex
-============
+About adstex-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/adstex-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/yymao/adstex
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/adstex-feedstock/blob/main/LICENSE.txt)
 
 Summary: Find all citation keys in your LaTeX documents and search NASA ADS to generate corresponding bibtex entries.
 

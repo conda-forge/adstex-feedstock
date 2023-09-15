@@ -1,5 +1,5 @@
 {% set name = "adstex" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/adstex-{{ version }}.tar.gz
-  sha256: d335908a2fd64dc7b24f3c740277004cd42cffe388d322796a0577bf97dcbeea
+  sha256: e36f30b9d72cb32130eebaa4c8ffae808e0e23b8bffeb0f4ffb534c99e07cb15
 
 build:
   number: 0
@@ -24,6 +24,7 @@ requirements:
   run:
     - ads >=0.12.3
     - bibtexparser >=0.6.2
+    - joblib >=1.0
     - packaging >=17.0
     - python >=3.6
     - requests >=2.0
