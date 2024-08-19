@@ -1,5 +1,5 @@
 {% set name = "adstex" %}
-{% set version = "0.5.2" %}
+{% set version = "0.5.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/adstex-{{ version }}.tar.gz
-  sha256: 9f8f26dbc07c712e6d2cd2373cd7859968a2d263b42d8790e18626dace78a825
+  sha256: 8619fbe53e7f52b579696dac9f844463d370c3d1463908bff885933e70a8e1d9
 
 build:
   number: 0
